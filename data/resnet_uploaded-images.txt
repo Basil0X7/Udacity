@@ -1,0 +1,130 @@
+Argument 1: uploaded_images/
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = resnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 11 key-value pairs.
+Below are 10 of them:
+ 1 key:                   alexy_01.jpg  label:                      alexy
+ 2 key:                   ciper_01.jpg  label:                      ciper
+ 3 key:                  dragon_01.jpg  label:                     dragon
+ 4 key:                     fox_01.jpg  label:                        fox
+ 5 key:                  patrec_01.jpg  label:                     patrec
+ 6 key:                  patrec_02.jpg  label:                     patrec
+ 7 key:                   reper_01.jpg  label:                      reper
+ 8 key:                   seder_01.jpg  label:                      seder
+ 9 key:                     toy_01.jpg  label:                        toy
+10 key:                     toy_02.jpg  label:                        toy
+
+     MATCH:
+
+                    fox_01.jpg: 
+Real:                        fox   Classifier:         red fox, vulpes vulpes
+
+                   wolf_01.jpg: 
+Real:                       wolf   Classifier: timber wolf, grey wolf, gray wolf, canis lupus
+
+ NOT A MATCH:
+
+                  alexy_01.jpg: 
+Real:                      alexy   Classifier:                      chihuahua
+
+                  ciper_01.jpg: 
+Real:                      ciper   Classifier:               golden retriever
+
+                 dragon_01.jpg: 
+Real:                     dragon   Classifier:                           cock
+
+                 patrec_01.jpg: 
+Real:                     patrec   Classifier:                     great dane
+
+                 patrec_02.jpg: 
+Real:                     patrec   Classifier:     german shorthaired pointer
+
+                  reper_01.jpg: 
+Real:                      reper   Classifier:      saint bernard, st bernard
+
+                  seder_01.jpg: 
+Real:                      seder   Classifier:                         beagle
+
+                    toy_01.jpg: 
+Real:                        toy   Classifier:                    screwdriver
+
+                    toy_02.jpg: 
+Real:                        toy   Classifier:              teddy, teddy bear
+
+# Total Images 11 # Matches: 2 # NOT Matches: 9
+
+     MATCH:
+
+                    fox_01.jpg: 
+Real:                        fox   Classifier:         red fox, vulpes vulpes  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                   wolf_01.jpg: 
+Real:                       wolf   Classifier: timber wolf, grey wolf, gray wolf, canis lupus  
+PetLabelDog: 0  ClassLabelDog: 0
+
+ NOT A MATCH:
+
+                  alexy_01.jpg: 
+Real:                      alexy   Classifier:                      chihuahua  
+PetLabelDog: 0  ClassLabelDog: 1
+
+                  ciper_01.jpg: 
+Real:                      ciper   Classifier:               golden retriever  
+PetLabelDog: 0  ClassLabelDog: 1
+
+                 dragon_01.jpg: 
+Real:                     dragon   Classifier:                           cock  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                 patrec_01.jpg: 
+Real:                     patrec   Classifier:                     great dane  
+PetLabelDog: 0  ClassLabelDog: 1
+
+                 patrec_02.jpg: 
+Real:                     patrec   Classifier:     german shorthaired pointer  
+PetLabelDog: 0  ClassLabelDog: 1
+
+                  reper_01.jpg: 
+Real:                      reper   Classifier:      saint bernard, st bernard  
+PetLabelDog: 0  ClassLabelDog: 1
+
+                  seder_01.jpg: 
+Real:                      seder   Classifier:                         beagle  
+PetLabelDog: 0  ClassLabelDog: 1
+
+                    toy_01.jpg: 
+Real:                        toy   Classifier:                    screwdriver  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    toy_02.jpg: 
+Real:                        toy   Classifier:              teddy, teddy bear  
+PetLabelDog: 0  ClassLabelDog: 0
+
+# Total Images 11 # Matches: 2 # NOT Matches: 9
+
+ ** Statistics from calculates_results_stats() function:
+N Images: 11  N Dog Images:  0  N NotDog Images: 11 
+Pct Corr dog:   0.0 Pct Corr NOTdog:  45.5  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images: 11  N Dog Images:  0  N NotDog Images: 11 
+Pct Corr dog:   0.0 Pct Corr NOTdog:  45.5  Pct Corr Breed:   0.0
+
+
+*** Results Summary for CNN Model Architecture RESNET ***
+N Images            :  11
+N Dog Images        :   0
+N Not Dog Images    :  11
+ 
+pct_match           : 18.181818%
+pct_correct_dogs    : 0.000000%
+pct_correct_breed   : 0.000000%
+pct_correct_notdogs : 45.454545%
+
+INCORRECT Dog/NOT Dog Assignments:
+
+** Total Elapsed Runtime: 0:0:0
